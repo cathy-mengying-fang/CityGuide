@@ -8,25 +8,96 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  display: inline-block;
+  margin: 50px;
+  width:90%;
+
 }
 
-.App-link {
-  color: #61dafb;
+.Logo{
+  float: left;
+  width:15%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.NavMenu{
+  float:right;
+
 }
+ .navIcon{
+  width:80%;
+ }
+
+
+/*map.css*/
+
+.cityList{
+  width:80%;
+  margin:auto;
+}
+
+
+
+.Locations{
+  margin-top: 100px;
+  display: inline-block;
+  width:20%;
+
+}
+
+
+.Location-Img{
+  width:100%;
+
+}
+
+
+/*detailLocation.css*/
+
+.Content{
+  display: inline-block;
+  width:75%;
+}
+
+.Content-Img{
+  float: left;
+  padding-top: 50px;
+  width:25%;
+
+}
+
+.InfoBox{
+  background-color: rgba(216,216,216,0.1);
+  border-radius: 10px;
+  width:60%;
+  margin-left: auto;
+  height:500px;
+}
+
+.Floating-icons-container{
+  float:right;
+  display: inline-block;
+  padding-right: 30px;
+  padding-top: 30px
+}
+
+.Floating-icon{
+  padding-left: 15px;
+}
+
+.Scroll-info{
+  padding-top: 30px;
+  width:85%;
+  height:70%;
+  margin-left:50px;
+  overflow: scroll
+}
+
+.Scroll-info-img{
+  width: 80%;
+  float: left
+}
+
+
+
+
+
